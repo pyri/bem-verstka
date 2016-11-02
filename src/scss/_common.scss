@@ -1,0 +1,10 @@
+body {
+    font: normal 16px/1 'pfd-regular', sans-serif;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}

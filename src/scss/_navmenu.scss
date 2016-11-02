@@ -1,0 +1,47 @@
+.navmenu, .navmenu__submenu {
+    list-style: none;
+    width: 100%;
+}
+.navmenu {
+    position: relative;
+}
+.navmenu__item {
+    float: left;
+    font-size: 18pt;
+    background-color: #2f2d2d;
+}
+.navmenu__item:hover {
+    background: url("/img/navmenu-bg.png")  0 0 repeat-x;
+    color: #2f2d2d;   
+}
+.navmenu__item:hover .navmenu__item-label {
+    color: #000;
+}
+.navmenu__item-label {
+    padding: 0 30px;
+    text-transform: uppercase;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navmenu__submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.navmenu__item:hover .navmenu__submenu {
+    display: block;
+}
+.navmenu__submenu-item {
+    float: left;
+}
+.navmenu__submenu-link {
+    color: #625f5f;
+    text-decoration: none;;
+}
+.navmenu__submenu-item:hover .navmenu__submenu-link {
+    color: #000
+}

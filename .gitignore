@@ -1,0 +1,8 @@
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+.idea
+!.gitkeep
+node_modules
